@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;500&family=Titillium+Web:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #212f74;
+    font-family: sans-serif;
+    
+}
+
+.loginbox {
+    width: 290px;
+    padding: 40px;
+    position: absolute;
+    margin: 100px 500px;
+    background-color: #191919;
+    text-align: center;
+    border: 3px solid #3498db;
+    border-radius: 25px;
+    animation: borderAnimation 1.5s infinite alternate;
+}
+
+@keyframes borderAnimation {
+    0% {
+      border-color: rgb(250, 33, 33);
+    }
+    50% {
+      border-color: blue;
+    }
+    100% {
+      border-color: rgb(252, 252, 252);
+    }
+  }
+  
+.loginbox h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 30px;
+}
+
+.loginbox input[type="text"], input[type="password"] {
+    border: 0;
+    background: none;
+    margin: 20px auto;
+    display: block;
+    border: 2px solid #3498db;
+    text-align: center;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    border-radius: 24px;
+    color: #fff;
+    transform: 0.25s;
+}
+
+.loginbox input[type="submit"] {
+    border: 0;
+    background: none;
+    margin: 20px auto;
+    display: block;
+    border: 2px solid #2ecc71;
+    text-align: center;
+    padding: 14px 40px;
+    outline: none;
+    border-radius: 24px;
+    color: #fff;
+    transform: 0,25s;
+}
+
+.loginbox input[type="submit"]:hover {
+    background-color: #2ecc71;
+}
+
+.loginbox input[type="text"]:focus, input[type="password"]:focus {
+    width: 280px;
+    border-color: #2ecc71;
+}
