@@ -1,6 +1,5 @@
-# Animation CSS
+## This project was conceived with the purpose of improving CSS proficiencies, and all works include animation elements, providing a dynamic and engaging experience. 
 
-## All designs are animations made with CSS. Academic projects.
 ## Isometric:
 ![Project-01](https://github.com/ViniciusV4/animation-CSS/blob/main/img/projeto01-menu.png?raw=true)
 ![Project-01-animatation](https://github.com/ViniciusV4/animation-CSS/blob/main/img/projeto02-animate.png?raw=true)
